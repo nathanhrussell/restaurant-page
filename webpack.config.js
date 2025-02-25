@@ -9,6 +9,14 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/i,
+        type: "asset/resource",
+      }
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "template.html",
