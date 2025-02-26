@@ -1,3 +1,5 @@
+import restaurantImage from "./restaurant.jpg";
+
 function loadHomePage() {
     const content = document.getElementById("content");
     content.innerHTML = "";
@@ -6,7 +8,7 @@ function loadHomePage() {
     title.textContent = "Welcome to Delightful Bites";
 
     const image = document.createElement("img");
-    image.src = "restaurant.jpg";
+    image.src = restaurantImage;
     image.alt = "A cosy restaurant interior";
 
     const taglineOne = document.createElement("p");
