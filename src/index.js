@@ -1,4 +1,4 @@
-import loadHomePage from "./pageLoad.js";
+import loadHomePage from "./home.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     loadHomePage();
