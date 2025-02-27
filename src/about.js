@@ -1,4 +1,4 @@
-function loadAboutPage() {
+export default function loadAboutPage() {
     const content = document.getElementById("content");
     content.innerHTML = "";
 
@@ -18,5 +18,3 @@ function loadAboutPage() {
 
     content.appendChild(aboutText);
 }
-
-export default loadAboutPage;

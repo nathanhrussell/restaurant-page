@@ -1,6 +1,6 @@
 import restaurantImage from "./restaurant.jpg";
 
-function loadHomePage() {
+export default function loadHomePage() {
     const content = document.getElementById("content");
     content.innerHTML = "";
 
@@ -25,5 +25,3 @@ function loadHomePage() {
 
 
 }
-
-export default loadHomePage;
